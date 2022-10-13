@@ -21,6 +21,6 @@ async function printPodcastTitle (url) {
 
 }
 
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < 20; i++) {
 ['https://www.relay.fm/connected/feed', 'https://www.relay.fm/upgrade/feed'].forEach((url) => { printPodcastTitle(url);})
 }
